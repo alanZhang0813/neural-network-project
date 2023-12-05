@@ -1,0 +1,3 @@
+/mnt/c/Users/ilyas/CLionProjects/FrugallyDeep/cmake-build-debug/CMakeFiles/FrugallyDeep.dir
+/mnt/c/Users/ilyas/CLionProjects/FrugallyDeep/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ilyas/CLionProjects/FrugallyDeep/cmake-build-debug/CMakeFiles/rebuild_cache.dir

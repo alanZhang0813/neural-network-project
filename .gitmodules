@@ -1,0 +1,9 @@
+[submodule "create-model"]
+	path = create-model
+	url = ../create-model
+[submodule "augment-images"]
+	path = augment-images
+	url = ../augment-images
+[submodule "frugally-deep-imp"]
+	path = frugally-deep-imp
+	url = ../frugally-deep-imp
