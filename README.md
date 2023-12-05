@@ -16,8 +16,10 @@ Augmented CIFAR-10 dataset with OpenCV in C++, trained a CNN model in Python usi
 3. [Requirements and Installation](#requirements-and-installation)
 
 ## Introduction <a name="introduction"></a>
-This project demonstrates the integration of C++ and Python in creating and utilizing a Convolutional Neural Network (CNN) for image classification.
-It involves data augmentation of the CIFAR-10 dataset using OpenCV in C++, building a CNN model in Python using Tensorflow, and employing the Frugally_Deep library in C++ for model predictions.
+This project demonstrates the integration of C++ and Python in creating and utilizing a 
+Convolutional Neural Network (CNN) for image classification.
+It involves data augmentation of the CIFAR-10 dataset using OpenCV in C++, building a CNN model in Python using 
+Tensorflow, and employing the Frugally_Deep library in C++ for model predictions.
 
 ## Workflow <a name="workflow"></a>
 1. **Data Augmentation with OpenCV in C++**:
