@@ -1,0 +1,8 @@
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/augment-images/CMakeFiles/AugmentImages.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/augment-images/CMakeFiles/edit_cache.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/augment-images/CMakeFiles/rebuild_cache.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/frugally-deep-imp/CMakeFiles/FrugallyDeep.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/frugally-deep-imp/CMakeFiles/edit_cache.dir
+/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug/frugally-deep-imp/CMakeFiles/rebuild_cache.dir

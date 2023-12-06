@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "augment-images",
+					"jsonFile" : "directory-augment-images-Debug-960fa4b39ad0af9bba68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "augment-images",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "frugally-deep-imp",
+					"jsonFile" : "directory-frugally-deep-imp-Debug-cc78fc86e75185709fd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "frugally-deep-imp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "neural-network-project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "AugmentImages",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "FrugallyDeep",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "AugmentImages::@9cc13414e5cdc45d5303",
+					"jsonFile" : "target-AugmentImages-Debug-025d5d33a1f0e28ca4ca.json",
+					"name" : "AugmentImages",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "FrugallyDeep::@2b6aefcdde810a2cee9d",
+					"jsonFile" : "target-FrugallyDeep-Debug-113caaeecf3171f14075.json",
+					"name" : "FrugallyDeep",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jiezhang/Desktop/CS3520/neural-network-project2/cmake-build-debug",
+		"source" : "/Users/jiezhang/Desktop/CS3520/neural-network-project2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
