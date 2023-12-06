@@ -43,4 +43,4 @@ Tensorflow, and employing the Frugally_Deep library in C++ for model predictions
 - C++17 compatible compiler.
 - OpenCV (https://github.com/opencv/opencv).
 - Python with Tensorflow installed.
-- Frugally_Deep library.
+- Frugally_Deep library (https://github.com/Dobiasd/frugally-deep).

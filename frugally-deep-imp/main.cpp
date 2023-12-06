@@ -3,7 +3,7 @@
 
 int main() {
     try {
-        Model model("../deep_model.json");
+        Model model("../fdeep_model.json");
         auto [predicted_class, confidence] = model.predict("../frog.jpg");
 
         std::cout << "Predicted class: " << predicted_class << std::endl;
