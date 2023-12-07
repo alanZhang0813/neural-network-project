@@ -1,4 +1,4 @@
-# High-Level README
+# C++IFAR-10
 
 ## CIFAR-10 Augment and Predict
 Augmented CIFAR-10 dataset with OpenCV in C++, trained a CNN model in Python using Tensorflow, and used Frugally_Deep in C++ for predictions on new data.
