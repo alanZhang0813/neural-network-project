@@ -9,9 +9,9 @@ Implement Frugally-Deep to import and assess the CNN model developed by the Pyth
 This concluding segment of our project, developed in C++, focuses on evaluating the effectiveness of the model generated in the previous steps. The model, initially created and exported as a .keras file by the 'create-model' library, is transformed into a "deep_model.json" file by Frugally-Deep for further processing and predictions.
 
 ## Workflow <a name="workflow"></a>
-1. Convert the .keras file to a Frugally-Deep JSON representation.
-1. The `main.cpp` file creates the `Model`, and calls predict() to predict the class of the image at the specified input image path. The input path should refer to an image from the CIFAR-10 Dataset.
-2. In `Model.cpp`, we open the input image path using OpenCV functionality and tranform this image into a Frugally-Deep tensor. We then use predict() method from the Frugally-Deep's library to predict the class of the input image and the confidence it predicts with.
+1. Convert the .keras file into a Frugally-Deep JSON format.
+2. The main.cpp file initializes the Model and calls the predict() function to determine the class of the image at the specified input image path. This path should correspond to an image from the CIFAR-10 Dataset.
+3. In Model.cpp, the input image path is opened using OpenCV, and the image is transformed into a Frugally-Deep tensor. We then utilize the predict(Frugally-Deep tensor) method from the Frugally-Deep library to ascertain the class of the input image and the confidence level of this prediction.
 
 ## Requirements and Installation <a name="requirements-and-installation"></a>
 - A C++17 or higher compatible compiler.
