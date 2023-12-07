@@ -1,5 +1,5 @@
 # augment-images
-Use the OpenCV library and its file traversal to go through the image dataset and augment it.
+Use the OpenCV library and file traversal to go through the image dataset and augment it.
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Workflow](#workflow)
