@@ -10,7 +10,7 @@ This concluding segment of our project, developed in C++, focuses on evaluating 
 
 ## Workflow <a name="workflow"></a>
 1. Convert the .keras file into a Frugally-Deep JSON format.
-2. The main.cpp file initializes the Model and calls the predict() function to determine the class of the image at the specified input image path. This path should correspond to an image from the CIFAR-10 Dataset.
+2. The main.cpp file initializes the Model and calls the predict() function to determine the class and the confidence level of the image at the specified input image path. This path should correspond to an image from the CIFAR-10 Dataset.
 3. In Model.cpp, the input image path is opened using OpenCV, and the image is transformed into a Frugally-Deep tensor. We then utilize the predict(Frugally-Deep tensor) method from the Frugally-Deep library to ascertain the class of the input image and the confidence level of this prediction.
 
 ## Requirements and Installation <a name="requirements-and-installation"></a>
