@@ -1,25 +1,23 @@
-# augment-images
-Use the OpenCV library and file traversal to go through the image dataset and augment it.
+# Image Dataset Augmentation
+Leverage OpenCV for image augmentation and C++ filesystem for directory navigation in image datasets.
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Workflow](#workflow)
-3. [Requirements and Installation](#requirements-and-installation)
+1. [Overview](#overview)
+2. [Process Steps](#process-steps)
+3. [Setup and Dependencies](#setup-and-dependencies)
 
-## Introduction <a name="introduction"></a>
-To properly train the model, the dataset should be varied and complex. Therefore, it is normal to augment the elements
-by applying various transformations to them. For every image, they will be randomly processed before written to a
-specified destination.
+## Overview <a name="overview"></a>
+To enhance model training, it's crucial to have a diverse and complex dataset. Augmentation of images by applying various transformations is a key strategy in achieving this. Each image in the dataset undergoes random transformations before being saved to a designated output directory.
 
-## Workflow <a name="workflow"></a>
-1. main.cpp outlines code for the input and output directories
-2. Using file traversal and iteration, ever image is passed through and 1 of 6 changes is applied.
-   - **Random Cropping**: Altering image boundaries.
-   - **Scaling**: Resizing images.
-   - **Flipping**: Mirroring images horizontally or vertically.
-   - **Gaussian Noise**: Adding random pixel noise.
-   - **Color Jittering**: Varying brightness, contrast, and saturation.
-3. The resulting database is outputted in the specified path location.
+## Process Steps <a name="process-steps"></a>
+1. `main.cpp` handles the setup for input and output directory paths.
+2. Through directory traversal in `ImageProcessor.cpp`, each image undergoes one of the following random augmentations randomly:
+   - **Random Cropping**: Modifying the borders of the image.
+   - **Scaling**: Adjusting image size.
+   - **Flipping**: Reflecting images across horizontal or vertical axes.
+   - **Gaussian Noise**: Introducing random noise at the pixel level.
+   - **Color Jittering**: Altering brightness, contrast, and saturation levels.
+3. Augmented images are written to the designated output path.
 
-## Requirements and Installation <a name="requirements-and-installation"></a>
-- C++17 compatible compiler
-- OpenCV (https://github.com/opencv/opencv).
+## Setup and Dependencies <a name="setup-and-dependencies"></a>
+- C++17 or higher compiler required.
+- OpenCV library (https://github.com/opencv/opencv).

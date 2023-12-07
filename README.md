@@ -37,7 +37,7 @@ Tensorflow, and employing the Frugally_Deep library in C++ for model predictions
 
 3. **Model Inference with Frugally_Deep in C++**:
     - Export the trained CNN model from Python to C++ using Frugally_Deep.
-    - Use the Frugally_Deep library to perform a forward pass with the data and predict outcomes.
+    - Use the Frugally_Deep library to perform a forward pass with the data and predict classes for input image(s).
 
 ## Requirements and Installation <a name="requirements-and-installation"></a>
 - C++17 compatible compiler.

@@ -1,23 +1,19 @@
-# frugally-deep
-Use frugally-deep implementation to import the model created by the Python create-model library and
-evaluate the results and let the user test it.
+# Frugally-Deep Model Evaluation
+Implement Frugally-Deep to import and assess the CNN model developed by the Python library, enabling evaluation and user testing.
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Workflow](#workflow)
 3. [Requirements and Installation](#requirements-and-installation)
 
 ## Introduction <a name="introduction"></a>
-This final part of the project is written in C++, and represents the step where we can evaluate how well the model was
-created. The model has been exported from the create-model and is now stored as "fdeep_model.json".
+This concluding segment of our project, developed in C++, focuses on evaluating the effectiveness of the model generated in the previous steps. The model, initially created and exported as a .keras file by the 'create-model' library, is transformed into a "deep_model.json" file by Frugally-Deep for further processing and predictions.
 
 ## Workflow <a name="workflow"></a>
-1. In main.cpp, it attempts to initialize a variable carrying the created neural network.
-2. Of the 10 possible subclasses in the CIFAR-10 image dataset, one should be chosen as the predicted class.
-3. Then, in Model.cpp, code from frugally-deep (https://github.com/Dobiasd/frugally-deep) to predict the accuracy of
-that guess.
-4. The confidence that the model has is printed out, along with its result for the closest match.
+1. Convert the .keras file into a Frugally-Deep JSON format.
+2. The `main.cpp` file initializes the Model and calls the `predict()` function to determine the class and the confidence level of the image at the specified input image path. This path should correspond to an image from the CIFAR-10 Dataset.
+3. In `Model.cpp`, the input image path is opened using OpenCV, and the image is transformed into a Frugally-Deep tensor. We then utilize the `predict(Frugally-Deep tensor)` method from the Frugally-Deep library to ascertain the class of the input image and the confidence level of this prediction.
 
 ## Requirements and Installation <a name="requirements-and-installation"></a>
-- C++17 compatible compiler.
-- OpenCV (https://github.com/opencv/opencv).
-- Frugally_Deep library (https://github.com/Dobiasd/frugally-deep).
+- A C++17 or higher compatible compiler.
+- OpenCV library (see [OpenCV GitHub](https://github.com/opencv/opencv)).
+- Frugally-Deep library (available at [Frugally-Deep GitHub](https://github.com/Dobiasd/frugally-deep)).
