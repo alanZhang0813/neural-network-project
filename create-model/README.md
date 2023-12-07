@@ -1,21 +1,18 @@
-# create-model
-Use TensorFlow in Python to create a convolutional neural network (CNN) for processing the image dataset.
+# CIFAR-10 CNN Model Creation
+Utilize TensorFlow in Python within a Jupyter Notebook to develop a Convolutional Neural Network (CNN) tailored for the CIFAR-10 image dataset.
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Workflow](#workflow)
 3. [Requirements and Installation](#requirements-and-installation)
 
 ## Introduction <a name="introduction"></a>
-This segment of the project is written in Python, which we have made in Jupyter Notebook.
-To use it, it will require an image dataset and two directories for testing and training. The code will 
-use TensorFlow to create a neural network and then train it with the dataset, as well as evaluating the results.
+This portion of the project, developed in Python and housed in a Jupyter Notebook, is dedicated to working with the CIFAR-10 dataset. It requires an augmented image dataset, divided into training and testing directories. Using TensorFlow, the script constructs and trains a CNN, and evaluates its performance.
 
 ## Workflow <a name="workflow"></a>
-The dataset used must be filled with images of the same 32x32 pixel size. It will then
-plot out the data of each dataset and use TensorFlow to structure the CNN.
+The CIFAR-10 dataset, consisting of 32x32 pixel images, is the primary focus. Initially, the script visualizes the data distribution across the training and testing sets. Following this, TensorFlow is employed to build the CNN structure.
 
-The model is then trained on the dataset provided and there is a line to evaluate the accuracy of the training results.
-Finally, the model is exported as a .keras file to be used in the frugally-deep code of the program.
+Training commences with the specified dataset, and the model's accuracy is assessed post-training. Upon completion, the model is exported as a .keras file, facilitating its integration into the project's frugally-deep framework.
 
 ## Requirements and Installation <a name="requirements-and-installation"></a>
-- Any Python IDE such as Jupyter Notebook
+- A Python IDE, preferably Jupyter Notebook, for script execution and visualization.
+- TensorFlow library, specifically for CNN model creation and training.
