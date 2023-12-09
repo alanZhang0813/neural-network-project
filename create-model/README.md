@@ -28,5 +28,5 @@ The data preparation involves loading the augmented image dataset, normalizing t
 The model architecture is defined using TensorFlow's Keras API, featuring convolutional layers, max-pooling layers, and fully connected layers. The training process involves fitting the model to the training data, with validation on the testing set to monitor performance.
 
 ## Evaluation and Model Export <a name="evaluation-and-model-export"></a>
-Post-training, the model's accuracy and loss are evaluated using the test dataset. The final trained model is then saved as a .keras file for future use or deployment in various applications.
+Post-training, the model's accuracy and loss are evaluated using the test dataset. The final trained model is then saved as a .keras file for future use.
 
