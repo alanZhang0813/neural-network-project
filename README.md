@@ -27,6 +27,8 @@ This project demonstrates the integration of C++ and Python in creating and util
 
 2. **CNN Model Creation in Python**:
     - Developing and training the CNN model using TensorFlow on the augmented dataset.
+<img width="1064" alt="image" src="https://github.com/alanZhang0813/neural-network-project/assets/132928424/d115756e-0359-47aa-8529-87d668c72de4">
+
 
 3. **Model Inference with Frugally_Deep in C++**:
     - Exporting the trained CNN model from Python to C++ using Frugally_Deep.
