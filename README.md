@@ -27,8 +27,6 @@ This project demonstrates the integration of C++ and Python in creating and util
 
 2. **CNN Model Creation in Python**:
     - Developing and training the CNN model using TensorFlow on the augmented dataset.
-<img width="1064" alt="image" src="https://github.com/alanZhang0813/neural-network-project/assets/132928424/d115756e-0359-47aa-8529-87d668c72de4">
-
 
 3. **Model Inference with Frugally_Deep in C++**:
     - Exporting the trained CNN model from Python to C++ using Frugally_Deep.
@@ -46,6 +44,22 @@ This project demonstrates the integration of C++ and Python in creating and util
 
 ## Sample Augmented Images <a name="sample-augmented-images"></a>
 ### Examples of Augmented Images
+Below are examples of augmented images using different techniques:
+
+- **Original Image**:
+    - ![Original Image](/images/original.jpg)
+- **Random Cropping**:
+    - ![Random Cropping](/images/random-cropping.jpg)
+- **Scaling**:
+    - ![Scaling](/images/scaling.jpg)
+- **Flipping**:
+    - ![Flipping](/images/flipping.jpg)
+- **Gaussian Noise**:
+    - ![Gaussian Noise](/images/gaussian-noise.jpg)
+- **Color Jittering**:
+    - ![Color Jittering](/images/jittering.jpg)
+
+These images showcase the variety of transformations that can be applied to the CIFAR-10 dataset for data augmentation purposes.
 
 ## Project Structure <a name="project-structure"></a>
 - **Data Augmentation Module**: Detailed in the [Image Dataset Augmentation README](./Image-Dataset-Augmentation-README.md).
