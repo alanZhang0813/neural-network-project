@@ -22,12 +22,8 @@ To enhance model training, having a diverse and complex dataset is crucial. This
 
 ## Process Steps <a name="process-steps"></a>
 1. `main.cpp` handles the setup for input and output directory paths.
-`std::string baseInputDir = "../../../Downloads/CIFAR-10-images";
-std::string baseOutputDir = "../../../Downloads/Processed-CIFAR-10-images";
-std::vector<std::string> subDirs = {"test", "train"};`
-Replace this with the designated directory for the CIFAR-10 database
-3. `ImageProcessor.cpp` traverses directories, applying one of the augmentations randomly to each image.
-4. Augmented images are written to the designated output path.
+4. `ImageProcessor.cpp` traverses directories, applying one of the augmentations randomly to each image.
+5. Augmented images are written to the designated output path.
 
 ## Setup and Dependencies <a name="setup-and-dependencies"></a>
 - C++17 or higher compiler required.
