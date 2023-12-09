@@ -63,7 +63,7 @@ These images showcase the variety of transformations that can be applied to the 
 
 ## Project Structure <a name="project-structure"></a>
 - **Data Augmentation Module**: Detailed in the [Image Dataset Augmentation README](./augment-images/README.md).
-- **CNN Model Creation Module**: Detailed in the [CIFAR-10 CNN Model Creation README](./CIFAR-10-CNN-Model-Creation-README.md).
-- **Model Inference Module**: Detailed in the [Frugally-Deep Model Evaluation README](./Frugally-Deep-Model-Evaluation-README.md).
+- **CNN Model Creation Module**: Detailed in the [CIFAR-10 CNN Model Creation README](./create-model/README.md).
+- **Model Inference Module**: Detailed in the [Frugally-Deep Model Evaluation README](./frugally-deep-imp/README.md).
 
 *Each module's README contains specific details about the implementation, workflow, and requirements.*
