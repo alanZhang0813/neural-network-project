@@ -21,9 +21,14 @@ To enhance model training, having a diverse and complex dataset is crucial. This
 - **Color Jittering**: Alters brightness, contrast, and saturation levels.
 
 ## Process Steps <a name="process-steps"></a>
+Replace these two with the path to your CIFAR-10 database
+
+`std::string baseInputDir = "../../../Downloads/CIFAR-10-images";`
+
+`std::string baseOutputDir = "../../../Downloads/Processed-CIFAR-10-images";`
 1. `main.cpp` handles the setup for input and output directory paths.
-4. `ImageProcessor.cpp` traverses directories, applying one of the augmentations randomly to each image.
-5. Augmented images are written to the designated output path.
+2. `ImageProcessor.cpp` traverses directories, applying one of the augmentations randomly to each image.
+3. Augmented images are written to the designated output path.
 
 ## Setup and Dependencies <a name="setup-and-dependencies"></a>
 - C++17 or higher compiler required.
