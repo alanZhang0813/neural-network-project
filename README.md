@@ -40,6 +40,7 @@ This project demonstrates the integration of C++ and Python in creating and util
 
 ## Data Visualization <a name="data-visualization"></a>
 ### CIFAR-10 Dataset Distribution
+![Data Distribution](data-distribution.png)
 
 ## Sample Augmented Images <a name="sample-augmented-images"></a>
 ### Examples of Augmented Images
