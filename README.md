@@ -62,7 +62,7 @@ Below are examples of augmented images using different techniques:
 These images showcase the variety of transformations that can be applied to the CIFAR-10 dataset for data augmentation purposes.
 
 ## Project Structure <a name="project-structure"></a>
-- **Data Augmentation Module**: Detailed in the [Image Dataset Augmentation README](./Image-Dataset-Augmentation-README.md).
+- **Data Augmentation Module**: Detailed in the [Image Dataset Augmentation README](./augment-images/README.md).
 - **CNN Model Creation Module**: Detailed in the [CIFAR-10 CNN Model Creation README](./CIFAR-10-CNN-Model-Creation-README.md).
 - **Model Inference Module**: Detailed in the [Frugally-Deep Model Evaluation README](./Frugally-Deep-Model-Evaluation-README.md).
 
